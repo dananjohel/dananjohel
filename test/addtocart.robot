@@ -15,7 +15,7 @@ Test Teardown	DriverBuilder.Close Website
 
 *** Test Cases ***
 REG_01 - Verify User is able to open Homepage
-#blablabla
+#gw ganti blablablanya..
 	homePage.Verify Simplisafe Homepage
 	homePage.Verify Shop Now Button
 	homePage.Click Shop Now Button
