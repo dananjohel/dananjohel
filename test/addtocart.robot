@@ -1,20 +1,22 @@
 *** Settings ***
 
 Library			seleniumlibrary
-Resource 		../../Simplisafe/commons/DriverBuilder.robot
-Resource 		../../Simplisafe/pages/homepage.robot
-Resource 		../../Simplisafe/pages/clp.robot
-Resource		../../Simplisafe/pages/plp.robot
-Resource		../../Simplisafe/pages/havenpdp.robot
-Resource		../../Simplisafe/pages/cart.robot
-Resource		../../Simplisafe/pages/shipping.robot
-Resource		../../Simplisafe/pages/payment.robot
-Resource		../../Simplisafe/pages/ordersum.robot
+Resource 		../../dananjohel/commons/DriverBuilder.robot
+Resource 		../../dananjohel/pages/homepage.robot
+Resource 		../../dananjohel/pages/clp.robot
+Resource		../../dananjohel/pages/plp.robot
+Resource		../../dananjohel/pages/havenpdp.robot
+Resource		../../dananjohel/pages/cart.robot
+Resource		../../dananjohel/pages/shipping.robot
+Resource		../../dananjohel/pages/payment.robot
+Resource		../../dananjohel/pages/ordersum.robot
 Test Setup 		DriverBuilder.Open Browser to the Home pages	https://us.qa.commerce.simplisafe.com/
 Test Teardown	DriverBuilder.Close Website
 
 *** Test Cases ***
 REG_01 - Verify User is able to open Homepage
+#gw ganti blablablanya..
+#test Pull Req
 	homePage.Verify Simplisafe Homepage
 	homePage.Verify Shop Now Button
 	homePage.Click Shop Now Button
